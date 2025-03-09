@@ -1,0 +1,23 @@
+# Игнорировать папку build
+/build/
+
+# Игнорировать временные файлы CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Игнорировать сгенерированные файлы и папки
+*.o
+*.a
+*.so
+*.dll
+*.exe
+
+# Игнорировать папки IDE (если используете)
+.vscode/
+.idea/
+
+# Игнорировать системные файлы
+.DS_Store
+Thumbs.db
